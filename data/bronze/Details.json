@@ -1,0 +1,61 @@
+{
+    "Aloe": {
+        "Overview": "Aloe (aloe vera), is a cactus-like plant that grows in hot, dry climates. The useful parts of aloe are the gel and latex.\n\nAloe gel might help some skin conditions like psoriasis. It also seems to speed up wound healing by improving blood circulation, and might combat certain types of bacteria and fungi. Aloe latex contains chemicals that work as a laxative. Some aloe products are made from the whole crushed leaf, so they contain both gel and latex.\n\nPeople commonly apply aloe gel to the skin for conditions such as sunburn, acne, dandruff, and many others, but there is no good scientific evidence to support these uses. Some people take aloe products by mouth for conditions such as obesity, diabetes, osteoarthritis, and many others, but there is also no good scientific evidence to support these uses.",
+        "Uses": {
+            "Possibly Effective for": [
+                [
+                    "Acne. Applying an aloe gel to the skin in the morning and evening, together with a prescription anti-acne medicine, can improve acne in some children and adults."
+                ],
+                [
+                    "Burns. Applying aloe gel or cream to the skin can reduce healing time in people with first- or second-degree burns."
+                ],
+                [
+                    "Constipation. Taking aloe latex by mouth can reduce constipation. But it's banned for use as a laxative by the FDA due to safety concerns."
+                ],
+                [
+                    "Diabetes. Taking aloe by mouth can reduce blood sugar and HbA1c in people with type 2 diabetes."
+                ],
+                [
+                    "Genital herpes. Applying an aloe extract 0.5% cream three times daily might help heal genital herpes outbreaks."
+                ],
+                [
+                    "An inflammatory condition that causes rash or sores on the skin or mouth (lichen planus). Using a mouthwash containing aloe gel three times daily for 12 weeks or applying a gel containing aloe twice daily for 8 weeks can reduce pain from itchy rashes in the mouth."
+                ],
+                [
+                    "Obesity. Taking a specific aloe product (Aloe QDM complex, Univera Inc.) twice daily for 8 weeks might reduce body weight and fat mass in overweight or obese people with diabetes or prediabetes."
+                ],
+                [
+                    "A painful mouth disease that reduces ones ability to open the mouth (oral submucous fibrosis). Applying aloe gel reduces burning from this condition. But it does not seem to improve the ability to open the mouth or improve cheek and tongue movements."
+                ],
+                [
+                    "Scaly, itchy skin (psoriasis). Applying a cream containing aloe extract 0.5% for 4 weeks seems to reduce skin plaques. But using an aloe gel doesn't seem to have the same effects."
+                ],
+                [
+                    "Sores in the mouth from injury or rubbing (traumatic oral ulcers). Applying a gel containing aloe to the gums after getting dental appliances such as braces helps to prevent mouth sores."
+                ]
+            ]
+        },
+        "SideEffects": "When taken by mouth: Aloe gel is possibly safe when used short-term. Aloe gel has been used safely in a dose of 15 mL daily for up to 42 days. Also, a specific gel (Aloe QDM complex Univera Inc) has been used safely at a dose of about 600 mg daily for up to 8 weeks. Aloe extract is also possibly safe when taken short-term.\n\nTaking aloe latex or aloe whole-leaf extract by mouth is possibly unsafe at any dose. Aloe latex is likely unsafe when taken by mouth in high doses. Aloe latex can cause side effects such as stomach pain. Long-term use of large amounts of aloe latex might cause serious side effects, including kidney and heart problems. Taking aloe latex 1 gram daily can be fatal.\n\nWhen applied to the skin: Aloe gel is likely safe.",
+        "Precautions": "Pregnancy and breast-feeding: Aloe gel and latex are possibly unsafe when taken by mouth. There is a report that aloe was associated with miscarriage. It might also increase the risk for birth defects. Do not take aloe by mouth if you are pregnant or breast-feeding.\n\nChildren: Aloe gel is possibly safe when applied to the skin appropriately. Aloe latex and aloe whole leaf extracts are possibly unsafe when taken by mouth in children. Children younger than 12 years old might have stomach pain, cramps, and diarrhea.\n\nIntestinal conditions such as Crohn disease, ulcerative colitis, or obstruction: Do not take aloe latex if you have any of these conditions. Aloe latex is a GI irritant. Products made from whole aloe leaves will contain some aloe latex.\n\nKidney problems: High doses of aloe latex have been linked to kidney failure and other serious conditions.\n\nSurgery: Aloe might affect blood sugar levels and could interfere with blood sugar control during and after surgery. Stop taking aloe at least 2 weeks before a scheduled surgery.",
+        "Interactions": {
+            "Major Interaction": {
+                "Digoxin (Lanoxin) interacts with ALOE": "When taken by mouth, aloe latex is a type of laxative called a stimulant laxative. Stimulant laxatives can decrease potassium levels in the body. Low potassium levels can increase the risk of side effects from digoxin."
+            },
+            "Moderate Interaction": {
+                "Medications for diabetes (Antidiabetes drugs) interacts with ALOE": "Aloe gel might lower blood sugar levels. Taking aloe along with diabetes medications might cause blood sugar to drop too low. Monitor your blood sugar closely.",
+                "Stimulant laxatives interacts with ALOE": "Aloe latex is a type of laxative called a stimulant laxative. Stimulant laxatives can cause diarrhea and decrease potassium levels. Taking aloe latex with other stimulant laxatives might cause more diarrhea and very low potassium levels.",
+                "Warfarin (Coumadin) interacts with ALOE": "Aloe latex is a type of laxative called a stimulant laxative. Stimulant laxatives speed up the bowels and can cause diarrhea in some people. Diarrhea can increase the effects of warfarin and increase the risk of bleeding. If you take warfarin, do not take excessive amounts of aloe latex.",
+                "Water pills (Diuretic drugs) interacts with ALOE": "Aloe latex is a laxative. Some laxatives can cause diarrhea and decrease potassium levels. \"Water pills\" can also decrease potassium levels. Taking aloe latex along with \"water pills\" might make potassium levels drop too low.",
+                "Medications that slow blood clotting (Anticoagulant / Antiplatelet drugs) interacts with ALOE": "Aloe might slow blood clotting. Taking aloe along with medications that also slow blood clotting might increase the risk of bruising and bleeding."
+            },
+            "Minor Interaction": {
+                "Medications changed by the liver (Cytochrome P450 1A2 (CYP1A2) substrates) interacts with ALOE": "Some medications are changed and broken down by the liver. Aloe extract might change how quickly the liver breaks down these medications. This could change the effects and side effects of these medications."
+            }
+        },
+        "Dosing": "Various aloe products have been used by mouth in adults. These include aloe extracts, aloe gels, aloe juices, and raw aloe leaves. Both adults and children have applied various aloe products to the skin, including gels, creams, mouthwashes, and topical solutions. Speak with a healthcare provider to find out what type of product and dose might be best for a specific condition.",
+        "Reviews": {
+            "NumberOfReviews": "Reviews (56)",
+            "Url": "https://reviews.webmd.com/vitamins-supplements/ingredientreview-607-ALOE"
+        }
+    }
+}
