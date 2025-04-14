@@ -1,8 +1,9 @@
-from pathlib import Path
+import os
 import glob
+
+from pathlib import Path
 from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv
-import os
 
 
 def upload_to_blob():
@@ -20,7 +21,6 @@ def upload_to_blob():
     json_files = glob.glob(str(Path(__file__).resolve().parents[1] / file_directory / "*.json"))
 
     files = csv_files + json_files
-
 
     print(f"File directory: {file_directory}")
     print(f"Matched files: {files}")
