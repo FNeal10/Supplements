@@ -1,5 +1,6 @@
 import pyodbc
 import os
+import glob
 import sys
 from dotenv import load_dotenv
 
@@ -10,18 +11,22 @@ schema_name = os.getenv("SCHEMA_NAME")
 server_name = os.getenv("SERVER_NAME")
 db_name = os.getenv("DB_NAME")
 
+create_table_files = glob.glob("schema/create_tables/*.sql")
+conn_str = f"DRIVER={driver_name};SERVER={server_name};DATABASE={db_name};Trusted_Connection=yes"
 try:
-    conn_str = f"DRIVER={driver_name};SERVER={server_name};DATABASE={db_name};Trusted_Connection=yes"
     with pyodbc.connect(conn_str) as conn:
         cursor = conn.cursor()
-        with open('schema/create_db_and_schema/create_tables.sql') as supp:
-            sql = supp.read()
-            sql = sql.replace('{{schema_name}}', schema_name)
-            conn.commit()
-            cursor.execute(sql)
-            conn.commit()
-        print(f"Tables created.")
+        for file in create_table_files:
+            try:
+                with open(file) as supp:
+                    sql = supp.read()
+                    sql = sql.replace('{{schema_name}}', schema_name)
+                    cursor.execute(sql)
+                    conn.commit()
+                    print(f"Executed {file} successfully.")
+            except Exception as e:
+                print(f"Error in file: {file}")
+                print(e)
 except Exception as e:
-    print("Error when creating tables")
+    print("Error when connecting or creating tables")
     print(e)
-    sys.exit()
