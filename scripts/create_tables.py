@@ -23,6 +23,7 @@ try:
                     sql = sql.replace('{{schema_name}}', schema_name)
                     cursor.execute(sql)
                     conn.commit()
+                    
                     print(f"Executed {file} successfully.")
             except Exception as e:
                 print(f"Error in file: {file}")
