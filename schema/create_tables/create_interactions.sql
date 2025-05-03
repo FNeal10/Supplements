@@ -5,6 +5,6 @@ END
 CREATE TABLE {{schema_name}}.interactions (
     InteractionsID INT IDENTITY(1,1) PRIMARY KEY,
     SupplementID INT,
-    InteractionsCategoryID INT,
+    Effectiveness VARCHAR(30),
     Interactions VARCHAR(MAX) NULL
 );
